@@ -1,0 +1,17 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=1
+infer-dims=3;224;224
+model-engine-file = ../../res/classifier_digestive_parts_model.trt
+labelfile-path=classifier_digestive_parts_labels.txt
+batch-size=1
+network-mode=2
+num-detected-classes=10
+interval=4
+gie-unique-id=1
+network-type=1
+cluster-mode=2
+output-blob-names=output0
+uff-input-blob-name=input0
+scaling-compute-hw=1

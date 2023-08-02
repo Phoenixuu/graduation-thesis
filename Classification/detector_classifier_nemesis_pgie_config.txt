@@ -1,0 +1,18 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=1
+infer-dims=3;640;640
+model-engine-file = ../../res/detector_classifier_nemesis_model.trt
+labelfile-path=detector_classifier_nemesis_labels.txt
+batch-size=1
+network-mode=1
+num-detected-classes=1
+interval=1
+gie-unique-id=1
+network-type=0
+cluster-mode=4
+output-blob-names=output0
+uff-input-blob-name=images
+scaling-compute-hw=1
+force-implicit-batch-dim=1

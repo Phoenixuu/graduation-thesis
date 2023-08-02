@@ -1,0 +1,1 @@
+Larynx;Esophagus;Cardia;Body;Fundus;Pylorus;GreatCurvature;LesserCurvature;Duodenumbulb;Duodenum

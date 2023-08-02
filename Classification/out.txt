@@ -1,0 +1,38 @@
+Using winsys: x11 
+Opening in BLOCKING MODE 
+WARNING: [TRT]: Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+0:00:22.992647418  5704     0x3b526e40 INFO                 nvinfer gstnvinfer.cpp:680:gst_nvinfer_logger:<nvinfer0> NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::deserializeEngineAndBackend() <nvdsinfer_context_impl.cpp:1909> [UID = 1]: deserialized trt engine from :/media/mica/sdcard/Adam/MICA_Endoscopy/res/resnet_engine2.trt
+WARNING: [TRT]: The getMaxBatchSize() function should not be used with an engine built from a network created with NetworkDefinitionCreationFlag::kEXPLICIT_BATCH flag. This function will always return 1.
+INFO: [Implicit Engine Info]: layers num: 2
+0   INPUT  kFLOAT input0          3x224x224       
+1   OUTPUT kFLOAT output0         10              
+
+0:00:23.212941014  5704     0x3b526e40 INFO                 nvinfer gstnvinfer.cpp:680:gst_nvinfer_logger:<nvinfer0> NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::generateBackendContext() <nvdsinfer_context_impl.cpp:2012> [UID = 1]: Use deserialized engine model: /media/mica/sdcard/Adam/MICA_Endoscopy/res/resnet_engine2.trt
+0:00:23.247402565  5704     0x3b526e40 INFO                 nvinfer gstnvinfer_impl.cpp:328:notifyLoadModelStatus:<nvinfer0> [UID 1]: Load new model:./endoscopy_pgie_config.txt sucessfully
+NvMMLiteOpen : Block : BlockType = 261 
+NVMEDIA: Reading vendor.tegra.display-size : status: 6 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+label number: 1
+current classifier element data : <capsule object NULL at 0xffffba643a80>
+<pyds.GList object at 0xffffba6191f0>
+1
+object meta class id : -1
+label number: 1
+current classifier element data : <capsule object NULL at 0xffffba643a80>
+<pyds.GList object at 0xffffba619e70>
+1
+object meta class id : -1
+label number: 1
+current classifier element data : <capsule object NULL at 0xffffba643a80>
+<pyds.GList object at 0xffffba6191f0>
+1
+object meta class id : -1
+label number: 1
+current classifier element data : <capsule object NULL at 0xffffba643a80>
+<pyds.GList object at 0xffffba619e70>
+1
+object meta class id : -1
+label number: 1
+current classifier element data : <capsule object NULL at 0xffffba643a80>
+<pyds.GList object at 0xffffba6191f0>
+...
